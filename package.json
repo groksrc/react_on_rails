@@ -1,0 +1,22 @@
+{
+  "name": "react_on_rails",
+  "version": "1.0.0",
+  "description": "react.js on rails 5",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/groksrc/react_on_rails.git"
+  },
+  "author": "@groksrc",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/groksrc/react_on_rails/issues"
+  },
+  "homepage": "https://github.com/groksrc/react_on_rails#readme"
+}
