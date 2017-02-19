@@ -5,6 +5,9 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
+source 'https://rails-assets.org' do
+  gem 'rails-assets-tether', '>= 1.3.3'
+end
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.0.1'
@@ -28,6 +31,9 @@ gem 'jbuilder', '~> 2.5'
 
 # Use react.js
 gem 'react-rails', '~> 1.10.0'
+
+# latest bootstrap
+gem 'bootstrap', '~> 4.0.0.alpha6'
 
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 3.0'
